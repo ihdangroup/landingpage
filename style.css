@@ -10,17 +10,8 @@ body {
 }
 nav {
     display: flex;
-    justify-content: space-around;
     align-items: center;
-}
-.nav-items {
-    width: 25%;
-    display: flex;
-    justify-content: space-around;
-}
-.nav-list {
-    text-decoration: none;
-    color: #333;
+    justify-content: center;
 }
 #header {
     padding: 20px 5%;
@@ -35,14 +26,31 @@ img {
 .welcome {
     width: 50%;
 }
+.welcome p{
+    font-size: 20px;
+}
 .welcome h2 {
     font-size: 3rem;
+    color:rgb(103, 227, 236) ;
 }
-#keunggulan {
+.welcome span {
+    color: #333;
+}
+#keunggulan, #album {
+    background-color:rgb(103, 227, 236);
+    padding: 20px;
+}
+.container2 {
     display: flex;
     justify-content: center;
-    background-color:rgb(216, 211, 211);
-    padding: 20px;
+}
+.judul2 {
+    text-align: center;
+    
+}
+.judul2 h3 {
+    font-size: 30px;
+    font-weight: bold;
 }
 .row {
     display: flex;
@@ -55,7 +63,7 @@ img {
 }
 .icon {
     width: 40px;
-    background-color: lightblue;
+    background-color:rgb(103, 227, 236) ;
     height: 40px;
     border-radius: 50%;
 }
@@ -91,12 +99,11 @@ img {
 .lorem {
     display: inline;
     width: 50%;
-}
-.list {
-    padding: 0 30px;
+    padding: 0px 10px;
 }
 .list h4 {
     border-bottom: 1px solid blue;
+    text-align: center;
 }
 .image {
     display: flex;
@@ -104,6 +111,23 @@ img {
 }
 .image img {
     width: 100%;
+}
+.foto {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+.bingkai {
+    background-color: cornsilk;
+    max-width: 22%;
+    margin: 3px 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid rgb(60, 174, 219);
 }
 @media screen and (max-width: 700px) {
     .nav-items {
@@ -133,5 +157,8 @@ img {
     }
     .spek {
         display: inline;
+    }
+    .bingkai {
+        max-width: 40%;
     }
 }
