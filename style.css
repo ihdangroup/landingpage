@@ -134,7 +134,7 @@ a {
 .card button {
     width: 60%;
     padding: 10px 0px;
-    background-color: rgb(65, 225, 73);
+    background-color: #036969;
     color: #f1f1f1;
     border-style: none;
     margin-bottom: 10px;
@@ -161,7 +161,7 @@ a {
 }
 .card h6 {
     font-size: 23px;
-    color: rgb(65, 225, 73);
+    color: #036969;
 }
 @media screen and (max-width: 700px) {
     #navbar {
